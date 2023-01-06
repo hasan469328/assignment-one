@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap");
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style Header Section  */
+.header {
+  margin-bottom: 130px;
+  min-height: 100vh;
+}
+.banner {
+  max-width: 100%;
+}
+.header-article {
+  margin-top: -475px;
+  text-align: right;
+  width: 500px;
+  margin-left: 650px;
+}
+.title-header {
+  font-weight: 700;
+  font-size: 65px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.description-header {
+  color: #444343;
+  margin-bottom: 34px;
+  line-height: 1.5;
+}
+.btn-header {
+  font-weight: 600;
+  font-size: 20px;
+  background: #f15b22;
+  color: whitesmoke;
+  border: 0;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+/* Main Section */
+.main {
+  max-width: 1000px;
+  min-height: 100vh;
+}
+
+/* My failure section */
+.my-failure-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failure-description {
+  color: #444343;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+.failure-reason-list {
+  list-style: none;
+  line-height: 1.7;
+}
