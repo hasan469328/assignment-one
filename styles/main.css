@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  border: 1px solid red;
 }
 
 /* Style Header Section  */
@@ -17,7 +18,7 @@
   max-width: 100%;
 }
 .header-article {
-  margin-top: -475px;
+  margin-top: -556px;
   text-align: right;
   width: 500px;
   margin-left: 650px;
@@ -45,7 +46,7 @@
 
 /* Main Section */
 .main {
-  max-width: 1000px;
+  max-width: 100%;
   min-height: 100vh;
 }
 
@@ -55,8 +56,10 @@
   justify-content: center;
   align-items: center;
   gap: 80px;
-  margin: 0 auto;
+  margin-left: 150px;
+  margin-right: 150px;
   padding: 10px;
+  margin-bottom: 130px;
 }
 .failure-title {
   font-weight: 700;
