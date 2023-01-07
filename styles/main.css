@@ -10,10 +10,7 @@
 }
 
 /* Style Header Section  */
-.header {
-  /* margin-bottom: 130px; */
-  /* min-height: 100vh; */
-}
+
 .hero-section {
   background-image: url("../images/banner/banner1.png");
   background-repeat: no-repeat;
@@ -98,8 +95,7 @@
   gap: 20px;
   text-align: center;
 }
-.plans-image {
-}
+
 .plan-sub-title {
   font-weight: 700;
   font-size: 30px;
@@ -111,7 +107,7 @@
   color: #737272;
 }
 /* positive mindset banner */
-.poitive-vive {
+.positive-vive {
   background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.4)),
     url("../images/watch.png");
   background-repeat: no-repeat;
