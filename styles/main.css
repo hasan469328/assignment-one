@@ -6,22 +6,27 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* Style Header Section  */
 .header {
-  margin-bottom: 130px;
+  /* margin-bottom: 130px; */
+  /* min-height: 100vh; */
+}
+.hero-section {
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
 }
-.banner {
-  max-width: 100%;
-}
 .header-article {
-  margin-top: -556px;
   text-align: right;
   width: 500px;
-  margin-left: 650px;
+  padding-left: 47px;
+  margin-left: 600px;
+  padding-top: 170px;
+  /* padding-bottom: 20px; */
 }
 .title-header {
   font-weight: 700;
@@ -107,17 +112,30 @@
 }
 /* positive mindset banner */
 .poitive-vive {
-  background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,0.4)),url("../images/watch.png");
+  background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.4)),
+    url("../images/watch.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 740px;
+  width: 950px;
   margin: 0 auto 15px;
+  margin-bottom: 130px;
 }
 .positive-title {
   font-weight: 700;
   font-size: 40px;
   color: whitesmoke;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 157px;
+  padding-top: 44px;
+  padding-left: 47px;
+  padding-right: 347px;
+}
+.btn-positive-vive {
+  padding: 10px 20px;
+  color: #f15b22;
+  background-color: whitesmoke;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
